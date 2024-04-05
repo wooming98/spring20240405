@@ -48,7 +48,6 @@ public class Controller05 {
     // 0 ~ 145.0 작은 키
     // 145.0 ~ 190.0 중간 키
     // 190 ~ 큰 키
-
     @RequestMapping("sub4")
     public void method4(@RequestParam("height") double param) {
         if (param <= 145.0) {

@@ -86,7 +86,7 @@ public class Controller04 {
 
     // /main4/sub6?weight=45.5
     // /main4/sub6?weight=80.7
-    // /main4/sub6?weight=120.3
+    // /main4/sub6?weight=190.1
     @RequestMapping("sub6")
     public void sub6(WebRequest request) {
         // 몸무게 weight 파라미터에 따라 다른 일
