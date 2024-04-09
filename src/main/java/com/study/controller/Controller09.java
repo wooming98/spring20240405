@@ -1,4 +1,4 @@
-package com.study.Controller;
+package com.study.controller;
 
 import com.study.domain.MyBean091;
 import com.study.domain.MyBean092;

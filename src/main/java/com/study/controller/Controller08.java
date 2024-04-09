@@ -1,4 +1,4 @@
-package com.study.Controller;
+package com.study.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -14,7 +14,7 @@ public class Controller08 {
 
     @RequestMapping("sub1")
     public void method1(Model model) {
-        // 요청 분석/기겅
+        // 요청 분석/가공
         // 비즈니스 로직 처리
         // 결과를 model 에 담고
         model.addAttribute("name1", "value1");
