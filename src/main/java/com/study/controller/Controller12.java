@@ -17,7 +17,7 @@ public class Controller12 {
     public void method1(Model model) {
         model.addAttribute("age", 30);
         model.addAttribute("products", List.of("노트북", "컴퓨터", "마우스"));
-        // /main12/sub1.jsp
+        // /main12/sub1OrderList.jsp
 
         // model.addAttribute("member", Map.of("country", "korea", "age", "30"));
         // model.addAttribute("member", Map.of("country", "korea", "age", "15"));

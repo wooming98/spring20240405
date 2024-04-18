@@ -20,7 +20,7 @@ public class Controller08 {
         model.addAttribute("name1", "value1");
         model.addAttribute("name2", "value2");
 
-        // view로 포워딩 (/WEB-INF/view/main8/sub1.jsp)
+        // view로 포워딩 (/WEB-INF/view/main8/sub1OrderList.jsp)
     }
 
     @RequestMapping("sub2")
