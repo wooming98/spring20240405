@@ -33,19 +33,19 @@
     </tr>
     </thead>
     <tbody>
-    <c:forEach items="${customerList}" var="customer">
+    <c:forEach items="${employeeList}" var="employee">
         <tr>
-            <td>${customer.id}</td>
-            <td>${customer.name}</td>
-            <td>${customer.contactName}</td>
-            <td>${customer.address}</td>
-            <td>${customer.city}</td>
-            <td>${customer.postalCode}</td>
-            <td>${customer.country}</td>
+            <td>${employee.id}</td>
+            <td>${employee.lastName}</td>
+            <td>${employee.firstName}</td>
+            <td>${employee.birthDate}</td>
+            <td>${employee.photo}</td>
+            <td>${employee.notes}</td>
         </tr>
     </c:forEach>
     </tbody>
 </table>
+
 <div>
     <c:if test="${currentPage != 1}">
         <c:url var="link" value="/main27/sub1">
@@ -92,6 +92,5 @@
         </span>
     </c:if>
 </div>
-
 </body>
 </html>
