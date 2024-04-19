@@ -84,3 +84,6 @@ ORDER BY CustomerID
 LIMIT 20, 10
 
 # n페이지 : LIMIT (n-1)*한페이지의게시물수, 한페이지의게시물수
+
+select *
+from Customers;

@@ -14,6 +14,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import javax.sql.DataSource;
 import java.sql.*;
 import java.util.ArrayList;
+import java.util.List;
 
 @Controller
 @RequestMapping("main26")
@@ -33,7 +34,7 @@ public class Controller26 {
                 WHERE OrderDate BETWEEN ? AND ?
                 """;
 
-        var list = new ArrayList<MyBean261Order>();
+        List<MyBean261Order> list = new ArrayList<>();
 
         Connection con = dataSource.getConnection();
         PreparedStatement pstmt = con.prepareStatement(sql);

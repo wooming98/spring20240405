@@ -37,4 +37,3 @@ FROM test;
 # 다른 데이터베이스의 테이블은 생략 못함
 SELECT *
 FROM w3schools.Customers;
-
